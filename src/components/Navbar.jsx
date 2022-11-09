@@ -78,8 +78,8 @@ const Navbar = () => {
 
                 <div className=' text-center relative bottom-20  '>
                     <h3 className=" lg:mt-12 lg:text-4xl dark:text-[#FAF9F8]  font-Metamorphous sm:text-3xl sm:mt-20  ">Hello world,</h3>
-                    <h1 className=" lg:text-7xl pt-5 dark:text-[#FAF9F8] font-Metamorphous sm:text-5xl ">I’m Christian Chibuzor</h1>
-                    <p className=" lg:text-2xl pt-3 dark:text-[#FAF9F8] font-Metamorphous sm:text-2xl  " >a frontend engineer, specialist in javascript.  <br /> Love Building amazing things with ReactJs and Tailwind Css</p>
+                    <h1 className=" lg:text-6xl pt-5 dark:text-[#FAF9F8] font-Metamorphous sm:text-4xl ">I’m Christian Chibuzor</h1>
+                    <p className=" lg:text-xl pt-3 dark:text-[#FAF9F8] font-Metamorphous sm:text-lg  " >a frontend engineer, specialist in javascript.  <br /> Love Building amazing things with ReactJs and Tailwind Css</p>
                 </div>
                 <div className=" flex justify-center  lg:gap-12 lg:mt-10 sm:gap-7 sm:mt-5">
                     <div className="bg-bluelite  w-10 h-10 py-2 px-2 rounded-full dark:bg-[#FF6B6BE5] dark:text-white  ">

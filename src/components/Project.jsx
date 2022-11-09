@@ -81,9 +81,9 @@ const Project = () => {
                 </div>
 
                 <div className=' text-center relative bottom-20  '>
-                    <h3 className=" lg:mt-12 lg:text-4xl dark:text-[#FAF9F8]  font-Metamorphous sm:text-3xl sm:mt-20  ">Hello world,</h3>
-                    <h1 className=" lg:text-7xl pt-8 dark:text-[#FAF9F8] font-Metamorphous sm:text-5xl ">Welcome to my project hub</h1>
-                    <p className=" lg:text-2xl pt-3 dark:text-[#FAF9F8] font-Metamorphous sm:text-2xl  " >As a frontend engineer, specialist in javascript. <br /> I have some couple of projects built with javascript libraries . <br /> Am always a ReactJs fan.</p>
+                    <h3 className=" lg:mt-12 lg:text-4xl dark:text-[#FAF9F8]  font-Metamorphous sm:text-xl sm:mt-20  ">Hello world,</h3>
+                    <h1 className=" lg:text-6xl pt-8 dark:text-[#FAF9F8] font-Metamorphous sm:text-3xl  ">Welcome to my project hub</h1>
+                    <p className=" lg:text-xl pt-3 dark:text-[#FAF9F8]  font-Metamorphous sm:text-sm   " >As a frontend engineer, specialist in javascript. <br /> I have some couple of projects built with javascript libraries . <br /> Am always a ReactJs fan.</p>
                 </div>
                 <div className=" flex justify-center  lg:gap-12 lg:mt-10 sm:gap-7 sm:mt-5">
                     <div className="bg-bluelite  w-10 h-10 py-2 px-2 rounded-full dark:bg-[#FF6B6BE5] dark:text-white  ">
@@ -134,7 +134,7 @@ const Project = () => {
            <div className='dark:bg-[#151D3B] '>
                 <div className=' max-w-[1240px] mx-auto  '>
                         <div className=' pt-48'>
-                            <h1 className=' lg:text-7xl lg:pl-0  font-Metamorphous dark:text-white  sm:text-5xl sm:pl-7'>Recent Projects</h1>
+                            <h1 className=' lg:text-7xl lg:pl-0  font-Metamorphous dark:text-white  sm:text-3xl sm:pl-7'>Recent Projects</h1>
                         </div>
 
                     <div className=' lg:flex mt-12 pt-20 sm:block '>
@@ -145,8 +145,8 @@ const Project = () => {
 
                            
                             <div className=' '>
-                                <h2 className=' text-4xl lg:pt-48 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 '>Cov19Strain Application</h2>
-                                <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[14px] '>Covid-19 tracker is an application  that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
+                                <h2 className=' lg:text-4xl lg:pt-48 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Cov19Strain Application</h2>
+                                <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application  that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
 
                                 <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
                                     <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
@@ -175,8 +175,8 @@ const Project = () => {
                 <div className=' max-w-[1240px] mx-auto'>
                     <div className=' lg:flex mt-12 sm:block'>
                         <div className=' '>
-                           <h2 className=' lg:mt-32 text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 '>DogHub Application</h2>
-                           <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[14px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
+                           <h2 className=' lg:mt-32 lg:text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>DogHub Application</h2>
+                           <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
 
                            <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
                                 <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
@@ -203,8 +203,8 @@ const Project = () => {
                         </div>
 
                         <div className=''>
-                           <h2 className=' text-4xl lg:pt-44 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 '>Wordlen Application</h2>
-                           <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[14px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
+                           <h2 className=' lg:text-4xl lg:pt-44 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Wordlen Application</h2>
+                           <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
 
                             <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
                                 <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
