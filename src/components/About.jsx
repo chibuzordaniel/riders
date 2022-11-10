@@ -75,8 +75,8 @@ const About = () => {
                 </div>
 
                 <div className=' text-center relative bottom-20  '>
-                    <h3 className=" lg:mt-12 lg:text-4xl dark:text-[#FAF9F8]  font-Metamorphous sm:text-3xl sm:mt-20  ">Hello world,</h3>
-                    <h1 className=" lg:text-5xl pt-5 dark:text-[#FAF9F8] font-Metamorphous sm:text-3xl ">My Journey in Tech Community </h1>
+                    <h3 className=" lg:mt-16 lg:text-4xl dark:text-[#FAF9F8]  font-Metamorphous sm:text-3xl sm:mt-20  ">Hello world,</h3>
+                    <h1 className=" lg:text-5xl pt-10 dark:text-[#FAF9F8] font-Metamorphous sm:text-3xl ">My Journey in Tech Community </h1>
                     <p className=" lg:text-xl pt-3 dark:text-[#FAF9F8] font-Metamorphous sm:text-sm  " >If you are here I strong believe we will be working <br /> closely or together as team soon. <br /> Keep scrolling let me talk you through my journey so far.</p>
                 </div>
                
@@ -97,38 +97,37 @@ const About = () => {
            <div className=' dark:bg-[#151D3B]'>
             <div className=' max-w-[1240px] mx-auto'>
                 <div>
-                   <h1 className=' text-5xl dark:text-white  font-Metamorphous pt-72'>About Me</h1>
+                   <h1 className=' lg:text-5xl dark:text-white lg:pl-0  font-Metamorphous lg:pt-52 sm:pt-32 sm:pl-7 sm:text-3xl'>About Me</h1>
                 </div>
-                <div className=' bg-white h-[900px] mt-16 mb'>
+                <div className=' bg-white lg:mx-0 lg:h-[900px] dark:bg-[#17234f] dark:text-white sm:h-[1370px] sm:mx-7 lg:mt-16 sm:mt-6 '>
                     <div>
                         <div>
-                            <h2 className=' pl-20 text-2xl pt-10  font-Poppins'>Hello World</h2>
-                            <p className=' pl-20 pt-5 font-Poppins'>I am Christian Chiemela a frontend engineer specialized in Javascript based in Lagos, Nigeria also a Manchester United Fan. I <br /> have been in the tech community 3+ years now with 2+ years experience in production working with javascript library such as <br /> <span className='text-[#FF6B6B]'> ReactJS.</span></p>
-                            <p className=' pl-20 pt-5 font-Poppins'>In my years of experience I have worked with international and local companies creating an impressive record and impact. <br /> Working closely with the UI/UX devs and Backend devs, keeping good relationship and communicating with the entire team. As <br /> a frontend engineer my sole priority is to implement the User Interface (UI), endpoint integration. Bring the UI prototype to <br /> reality.</p>
-                            <h2 className=' pl-20 pt-5 font-Poppins text-xl font-bold '>Stacks that I am familiar with:</h2>
-                            <p className=' pl-20 pt-5 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>JavaScript (ES6)</p>
-                            <p className=' pl-20 pt-3 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>ReactJs</p>
-                            <p className=' pl-20 pt-3 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>CSS3</p>
-                            <p className=' pl-20 pt-3 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>TailwindCSS</p>
+                            <h2 className=' lg:pl-20 text-2xl pt-10  font-Poppins sm:pl-7'>Hello World</h2>
+                            <p className=' lg:pl-20 pt-5 font-Poppins sm:px-7'>I am Christian Chiemela a frontend engineer specialized in Javascript based in Lagos, Nigeria also a Manchester United Fan. I <br /> have been in the tech community 3+ years now with 2+ years experience in production working with javascript library such as <br /> <span className='text-[#FF6B6B]'> ReactJS.</span></p>
+                            <p className=' lg:pl-20 pt-5 font-Poppins sm:px-7'>In my years of experience I have worked with international and local companies creating an impressive record and impact. <br /> Working closely with the UI/UX devs and Backend devs, keeping good relationship and communicating with the entire team. As <br /> a frontend engineer my sole priority is to implement the User Interface (UI), endpoint integration. Bring the UI prototype to <br /> reality.</p>
+                            <h2 className=' lg:pl-20 pt-5 font-Poppins text-xl font-bold sm:px-7 '>Stacks that I am familiar with:</h2>
+                            <p className=' lg:pl-20 pt-5 font-Poppins flex gap-2 sm:px-7 '><BsNutFill className=' mt-1 text-red-600'/>JavaScript (ES6)</p>
+                            <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2  sm:px-7'><BsNutFill className=' mt-1 text-red-600'/>ReactJs</p>
+                            <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2 sm:px-7'><BsNutFill className=' mt-1 text-red-600'/>CSS3</p>
+                            <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2 sm:px-7'><BsNutFill className=' mt-1 text-red-600'/>TailwindCSS</p>
                         </div>
                         <div>
-                           <h2 className=' pl-20 pt-5 font-Poppins text-xl font-bold '>Version Control & Deployment that I am familiar with:</h2>
-                           <p className=' pl-20 pt-3 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>Git</p>
-                           <p className=' pl-20 pt-3 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>Github</p>
-                           <p className=' pl-20 pt-3 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>Netlify</p>
+                           <h2 className=' lg:pl-20 pt-5 font-Poppins text-xl font-bold  sm:px-7'>Version Control & Deployment that I am familiar with:</h2>
+                           <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2  sm:px-7'><BsNutFill className=' mt-1 text-red-600'/>Git</p>
+                           <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2  sm:px-7'><BsNutFill className=' mt-1 text-red-600'/>Github</p>
+                           <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2 sm:px-7 '><BsNutFill className=' mt-1 text-red-600'/>Netlify</p>
                         </div>
 
                         <div>
-                           <h2 className=' pl-20 pt-5 font-Poppins text-xl font-bold '>My Hobbies:</h2>
-                           <p className=' pl-20 pt-3 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>Cooking</p>
-                           <p className=' pl-20 pt-3 font-Poppins flex gap-2 '><BsNutFill className=' mt-1 text-red-600'/>Football</p>
+                           <h2 className=' lg:pl-20 pt-5 font-Poppins text-xl font-bold  sm:px-7'>My Hobbies:</h2>
+                           <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2  sm:px-7'><BsNutFill className=' mt-1 text-red-600'/>Cooking</p>
+                           <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2  sm:px-7'><BsNutFill className=' mt-1 text-red-600'/>Football</p>
                         </div>
                     </div>
                 </div>
             </div>
-           </div>
 
-           <footer className=' bg-white mt-20  dark:bg-[#151D3B]'>
+            <footer className=' bg-white mt-20  dark:bg-[#151D3B]'>
                     <div className=' max-w-[1240px] mx-auto'>
                         <div className=' flex lg:ml-0  sm:ml-7  '>
                             <div className=' pt-14'>
@@ -192,6 +191,10 @@ const About = () => {
 
                    
                 </footer>
+
+           </div>
+
+          
            </div>
         </div>
     )
