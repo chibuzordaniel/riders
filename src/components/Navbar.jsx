@@ -18,7 +18,7 @@ const Navbar = () => {
     return(
         
         <div className={darkMode ? "dark" : ""} >
-          <div className='  '>
+          <div className=' dark:bg-[#151D3B] '>
             <nav className=' bg-white h-20  w-screen z-10  top-0 fixed drop-shadow-lg dark:bg-[#151D3B]'>
                
             <div className=' max-w-[1240px] mx-auto '>
@@ -31,11 +31,11 @@ const Navbar = () => {
                         </div>
                         <ul className=' flex'>
                             <div className='hidden lg:flex py-6 gap-[53px] dark:text-[#FAF9F8]'>
-                                <li className='  text-lg text-[#B10808]'><Link to='/Navbar'>#Home</Link></li>
+                                <li className='  text-lg text-[#B10808]'><Link to='/Navbar'>Home</Link></li>
                                 <li className=' text-lg cursor-pointer hover:text-[#B10808]'><Link to='/About'>About</Link></li>
                                 <li className=' text-lg cursor-pointer hover:text-[#B10808]'><Link to='/Project'>Project</Link></li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>#Resume</li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>#Contact</li>
+                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Resume</li>
+                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Contact</li>
                             </div>
 
                             <div className='dark:text-[#FAF9F8] lg:py-7 lg:ml-16 sm:py-[29px] sm:ml-[140px] md:ml-[600px]  ' onClick={handlerClick}>
@@ -51,7 +51,7 @@ const Navbar = () => {
                         </div>
                    </div>
                    <ul className={!nav ? 'hidden' :  ' border-t-2 absolute  right-4 top-20  pt-4 pl-5 bg-white h-[200px] w-40  gap-[53px] dark:bg-[#17234f] shadow-xl dark:text-[#FAF9F8] '}>
-                            <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><Link to='/Navbar'>#Home</Link></li>
+                            <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><Link to='/Navbar'>Home</Link></li>
                             <li className=' flex gap-3 pt-2'><BsFillFileTextFill className=' mt-1' /><Link to='/About'>About</Link></li>
                             <li className=' flex gap-3 pt-2'><BsFillCheckSquareFill className=' mt-1' /><Link to='/Project'>Project</Link></li>
                             <li className=' flex gap-3 pt-2'><BsFillBookmarksFill className=' mt-1' />Resume</li>
@@ -72,7 +72,9 @@ const Navbar = () => {
                                 <circle cx="50" cy="84" r="50" fill="#FF6B6B" fillOpacity="0.9"/>
                                 <circle cx="100" cy="120" r="50" fill="#EFA434" fillOpacity="0.22"/>
                                 <circle cx="100" cy="50" r="50" fill="#2B33E3" fillOpacity="0.62"/>
+                                
                          </svg>
+
                     </div>
                 </div>
 
@@ -118,7 +120,7 @@ const Navbar = () => {
                     </div>
               </div>
               <div className=" dark:bg-[#151D3B] dark:text-white ">
-                <p className=" text-center  lg:text-sm lg:pt-20 pb-[49px]  sm:pt-[370px] sm:text-xs  font-Metamorphous ">Copyright © 2022 designed by Christian Chibuzor All rights reserved.</p>
+                <p className=" text-center  lg:text-sm lg:pt-20 pb-[57px]  sm:pt-[370px] sm:text-xs  font-Metamorphous ">Copyright © 2022 designed by Christian Chibuzor All rights reserved.</p>
               </div>
            </footer>
            </div>

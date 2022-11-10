@@ -7,9 +7,9 @@ import  {FaLinkedinIn, FaSun}  from  'react-icons/fa';
 import  {IoLogoOctocat} from  'react-icons/io';
 import  {HiXMark} from  'react-icons/hi2';
 import {useState} from 'react';
-import frame from '../assests/Frame 1.png';
-import frame2 from '../assests/Frame 1 (1).png';
-import frame3 from  '../assests/Frame 12.png'
+import frame from '../assests/Group 29.png';
+import frame2 from '../assests/Group 33.png';
+import frame3 from  '../assests/Group 30.png'
 import {Link} from 'react-router-dom'
 
 const Project = () => {
@@ -35,11 +35,11 @@ const Project = () => {
                         </div>
                         <ul className=' flex'>
                             <div className='hidden lg:flex py-6 gap-[53px] dark:text-[#FAF9F8]'>
-                                <li className='  text-lg text-[#B10808]'><Link to='/Navbar'>#Home</Link></li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>#About</li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>#Project</li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>#Resume</li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>#Contact</li>
+                                <li className='  text-lg text-[#B10808]'><Link to='/Navbar'>Home</Link></li>
+                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'><Link to='/About'>About</Link></li>
+                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Project</li>
+                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Resume</li>
+                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Contact</li>
                             </div>
 
                             <div className='dark:text-[#FAF9F8] lg:py-7 lg:ml-16 sm:py-[29px] sm:ml-[140px] md:ml-[600px]  ' onClick={handlerClick}>
@@ -55,8 +55,8 @@ const Project = () => {
                         </div>
                    </div>
                    <ul className={!nav ? 'hidden' :  ' border-t-2 absolute  right-4 top-20  pt-4 pl-5 bg-white h-[200px] w-40  gap-[53px] dark:bg-[#17234f] shadow-xl dark:text-[#FAF9F8] '}>
-                            <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><Link to='/Navbar'>#Home</Link></li>
-                            <li className=' flex gap-3 pt-2'><BsFillFileTextFill className=' mt-1' />About</li>
+                            <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><Link to='/Navbar'>Home</Link></li>
+                            <li className=' flex gap-3 pt-2'><BsFillFileTextFill className=' mt-1' /><Link to='/About'>About</Link></li>
                             <li className=' flex gap-3 pt-2'><BsFillCheckSquareFill className=' mt-1' />Project</li>
                             <li className=' flex gap-3 pt-2'><BsFillBookmarksFill className=' mt-1' />Resume</li>
                             <li className=' flex gap-3 pt-2'><BsFillTelephoneForwardFill className=' mt-1' />Contact</li>
@@ -123,9 +123,6 @@ const Project = () => {
                         </svg>
                     </div>
               </div>
-              <div className=" dark:bg-[#151D3B] dark:text-white ">
-                <p className="  "></p>
-              </div>
            </div>
            </div>
 
@@ -137,16 +134,16 @@ const Project = () => {
                             <h1 className=' lg:text-7xl lg:pl-0  font-Metamorphous dark:text-white  sm:text-3xl sm:pl-7'>Recent Projects</h1>
                         </div>
 
-                    <div className=' lg:flex mt-12 pt-20 sm:block '>
+                    <div className=' lg:flex lg:gap-7 mt-12 pt-20 sm:block '>
 
-                           <div className=' lg:relative lg:right-14 '>
-                                <img src={frame} alt="" srcset="" />
+                           <div className='  '>
+                                <img className=' lg:w-[780px]  lg:mx-0 sm:w-[280px] sm:mx-7  '  src={frame} alt="" srcset="" />
                             </div>
 
                            
-                            <div className=' '>
-                                <h2 className=' lg:text-4xl lg:pt-48 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Cov19Strain Application</h2>
-                                <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application  that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
+                            <div className='  '>
+                                <h2 className=' lg:text-4xl lg:pt-40 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Cov19Strain Application</h2>
+                                <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application  that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
 
                                 <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
                                     <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
@@ -173,10 +170,10 @@ const Project = () => {
                 {/* section DogHub Application */}
 
                 <div className=' max-w-[1240px] mx-auto'>
-                    <div className=' lg:flex mt-12 sm:block'>
+                    <div className=' lg:flex lg:gap-7 mt-12 sm:block'>
                         <div className=' '>
-                           <h2 className=' lg:mt-32 lg:text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>DogHub Application</h2>
-                           <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
+                           <h2 className=' lg:mt-28 lg:text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>DogHub Application</h2>
+                           <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
 
                            <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
                                 <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
@@ -184,27 +181,27 @@ const Project = () => {
                                 <button className=' bg-[#FF6B6B] lg:w-[119px] lg:ml-0  lg:h-[59px] text-white sm:ml-2 sm:w-[22%] sm:h-8'><a href="https://app.netlify.com/teams/chrisonwueyip/overview">Netlify</a></button>
                                 <button className=' bg-[#EFA434]  lg:w-[119px]  lg:h-[59px] text-white lg:ml-0 sm:w-[22%] sm:h-8  sm:ml-2'><a href="https://github.com/chibuzordaniel">Github</a></button>
                           </div>
-                          <div className=' pt-[54px] lg:relative lg:top-0 sm:relative sm:top-[480px] md:relative md:top-[990px] '>
+                          <div className=' pt-[64px]  '>
                              <button className='bg-[#FF6B6B] lg:w-[100px] lg:h-[100px] lg:ml-0 rounded-full text-white  sm:w-[70px]  sm:h-[70px] sm:ml-7'><a href="https://chibuzordaniel.github.io/Dog-breed/">View</a> </button>
                           </div>
                         </div>
 
-                        <div className=' relative bottom-28'>
-                            <img src={frame3} alt="" srcset="" />
+                        <div className=' '>
+                            <img className='lg:w-[780px]  lg:mx-0 sm:w-[280px] mx-7 ' src={frame3} alt="" srcset="" />
                         </div>
                     </div>
                 </div>
 
               {/* section DogHub Application */}
               <div className=' max-w-[1240px] mx-auto  '>
-                <div className=' lg:flex mt-12 sm:block'>
-                        <div className='  lg:relative lg:right-16  '>
-                            <img src={frame2} alt="" srcset="" />
+                <div className=' lg:flex lg:gap-7 mt-40 sm:block'>
+                        <div className='   '>
+                            <img className='lg:w-[780px]  lg:mx-0 sm:w-[280px] mx-7 ' src={frame2} alt="" srcset="" />
                         </div>
 
-                        <div className=''>
+                        <div className=' '>
                            <h2 className=' lg:text-4xl lg:pt-44 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Wordlen Application</h2>
-                           <p className=' lg:text-[16px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
+                           <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
 
                             <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
                                 <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
@@ -228,7 +225,7 @@ const Project = () => {
                                 </svg>
                             </div>
                             <div className=' pt-[74px] text-xl dark:text-white'>
-                                <h3 className=' text-lg font-bold font-Metamorphous'>Christian Chibuzor</h3>
+                                <h3 className=' lg:text-lg font-bold font-Metamorphous sm:text-sm'>Christian Chibuzor</h3>
                             </div>
                         </div>
 
@@ -239,7 +236,7 @@ const Project = () => {
                             </svg>
                          </div>
                           <div>
-                            <p className=' dark:text-white pl-7 text-sm  font-Metamorphous '><a href="+234-70-1563-2583">+234-70-1563-2583</a></p>
+                            <p className=' lg:text-lg dark:text-white pl-7 text-sm  font-Metamorphous sm:text-sm '><a href="+234-70-1563-2583">+234-70-1563-2583</a></p>
                           </div>
                         </div>
 
@@ -251,7 +248,7 @@ const Project = () => {
                             </div>
 
                             <div>
-                                <h3 className='dark:text-white pl-7 text-sm  font-Metamorphous'><a href="chrisonwueyip@gmail.com">chrisonwueyip@gmail.com</a></h3>
+                                <h3 className='dark:text-white pl-7 lg:text-sm  sm:text-xs font-Metamorphous'><a href="chrisonwueyip@gmail.com">chrisonwueyip@gmail.com</a></h3>
                             </div>
                         </div>
                     </div>
@@ -276,7 +273,7 @@ const Project = () => {
                      </div>
 
                      <div className=' lg:flex lg:justify-end  lg:pt-0  sm:flex   sm:justify-start sm:px-7 sm:pt-5'>
-                        <h3 className='  text-sm py-12 dark:text-white  font-Metamorphous'>Copyright © 2022 designed by Christian Chibuzor All rights reserved.</h3>
+                        <h3 className='  lg:text-sm py-12 dark:text-white  font-Metamorphous sm:text-xs'>Copyright © 2022 designed by Christian Chibuzor All rights reserved.</h3>
                     </div>
                     </div>
 
