@@ -102,9 +102,8 @@ const About = () => {
                 <div className=' bg-white lg:mx-0 lg:h-[900px] dark:bg-[#17234f] dark:text-white sm:h-[1370px] sm:mx-7 lg:mt-16 sm:mt-6 '>
                     <div>
                         <div>
-                            <h2 className=' lg:pl-20 text-2xl pt-10  font-Poppins sm:pl-7'>Hello World</h2>
-                            <p className=' lg:pl-20 pt-5 font-Poppins sm:px-7'>I am Christian Chiemela a frontend engineer specialized in Javascript based in Lagos, Nigeria also a Manchester United Fan. I <br /> have been in the tech community 3+ years now with 2+ years experience in production working with javascript library such as <br /> <span className='text-[#FF6B6B]'> ReactJS.</span></p>
-                            <p className=' lg:pl-20 pt-5 font-Poppins sm:px-7'>In my years of experience I have worked with international and local companies creating an impressive record and impact. <br /> Working closely with the UI/UX devs and Backend devs, keeping good relationship and communicating with the entire team. As <br /> a frontend engineer my sole priority is to implement the User Interface (UI), endpoint integration. Bring the UI prototype to <br /> reality.</p>
+                            <h2 className=' lg:pl-20 text-2xl pt-10  font-Poppins sm:pl-7  font-bold'>Hello World</h2>
+                            <p className=' lg:pl-20 pt-5 font-Poppins sm:px-7'>I am Christian Chibuzor a frontend engineer specialized in Javascript based in Imo State, Nigeria also a Chelsea Fan. I <br /> have been in the tech community 1+ year in production working with javascript library such as <br /> <span className='text-[#FF6B6B]'> ReactJS.</span></p>
                             <h2 className=' lg:pl-20 pt-5 font-Poppins text-xl font-bold sm:px-7 '>Stacks that I am familiar with:</h2>
                             <p className=' lg:pl-20 pt-5 font-Poppins flex gap-2 sm:px-7 '><BsNutFill className=' mt-1 text-red-600'/>JavaScript (ES6)</p>
                             <p className=' lg:pl-20 pt-3 font-Poppins flex gap-2  sm:px-7'><BsNutFill className=' mt-1 text-red-600'/>ReactJs</p>
