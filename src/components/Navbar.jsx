@@ -83,7 +83,7 @@ const Navbar = () => {
                     <h1 className=" lg:text-6xl pt-5 dark:text-[#FAF9F8] font-Metamorphous sm:text-4xl ">I’m Christian Chibuzor</h1>
                     <p className=" lg:text-xl pt-3 dark:text-[#FAF9F8] font-Metamorphous sm:text-lg  " >a frontend engineer, specialist in javascript.  <br /> Love Building amazing things with ReactJs and Tailwind Css</p>
                 </div>
-                <div className=" flex justify-center  lg:gap-12 lg:mt-10 sm:gap-7 sm:mt-5">
+                <div className=" flex justify-center  lg:gap-12 lg:mt-10 sm:gap-7 sm:mt-12">
                     <div className="bg-bluelite  w-10 h-10 py-2 px-2 rounded-full dark:bg-[#FF6B6BE5] dark:text-white  ">
                     <a href="https://web.Facebook.com">< FaFacebookF className=' w-6 h-6'/> </a> 
                     </div>
@@ -120,7 +120,7 @@ const Navbar = () => {
                     </div>
               </div>
               <div className=" dark:bg-[#151D3B] dark:text-white ">
-                <p className=" text-center  lg:text-sm lg:pt-20 pb-[57px]  sm:pt-[370px] sm:text-xs  font-Metamorphous ">Copyright © 2022 designed by Christian Chibuzor All rights reserved.</p>
+                <p className=" text-center  lg:text-sm lg:pt-20 pb-[57px]  sm:pt-[270px] sm:text-xs  font-Metamorphous ">Copyright © 2022 designed by Christian Chibuzor All rights reserved.</p>
               </div>
            </footer>
            </div>

@@ -99,7 +99,7 @@ const About = () => {
                 <div>
                    <h1 className=' lg:text-5xl dark:text-white lg:pl-0  font-Metamorphous lg:pt-52 sm:pt-32 sm:pl-7 sm:text-3xl'>About Me</h1>
                 </div>
-                <div className=' bg-white lg:mx-0 lg:h-[900px] dark:bg-[#17234f] dark:text-white sm:h-[1370px] sm:mx-7 lg:mt-16 sm:mt-6 '>
+                <div className=' bg-white lg:mx-0 pb-7 h-[100%] dark:bg-[#17234f] dark:text-white  sm:mx-7 lg:mt-16 sm:mt-6 '>
                     <div>
                         <div>
                             <h2 className=' lg:pl-20 text-2xl pt-10  font-Poppins sm:pl-7  font-bold'>Hello World</h2>
