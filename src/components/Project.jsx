@@ -172,7 +172,7 @@ const Project = () => {
                 <div className=' max-w-[1240px] mx-auto'>
                     <div className=' lg:flex lg:gap-7 mt-12 sm:block'>
                         <div className=' '>
-                           <h2 className=' lg:mt-52 lg:text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>DogHub Application</h2>
+                           <h2 className=' lg:mt-48 lg:text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>DogHub Application</h2>
                            <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
 
                            <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
