@@ -48,7 +48,7 @@ const Navbar = () => {
 
                         <div  className=' lg:hidden sm:py-6 sm:mr-9  ' onClick={handleClick}>
                               { !nav ? <IoAppsSharp className=' lg:w-7 lg:h-6  sm:w-5 sm:h-6 mt-1 dark:text-[#FAF9F8]'/> : <HiXMark className=' w-7 h-6 mt-1 dark:text-[#FAF9F8]'/>  }
-                        </div>
+                        </div> 
                    </div>
                    <ul className={!nav ? 'hidden' :  ' border-t-2 absolute  right-4 top-20  pt-4 pl-5 bg-white h-[200px] w-40  gap-[53px] dark:bg-[#17234f] shadow-xl dark:text-[#FAF9F8] '}>
                             <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><Link to='/Navbar'>Home</Link></li>
