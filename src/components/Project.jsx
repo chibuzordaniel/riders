@@ -10,10 +10,22 @@ import {useState} from 'react';
 import frame from '../assests/Group 29.png';
 import frame2 from '../assests/Group 33.png';
 import frame3 from  '../assests/Group 30.png'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import { Usedarkmode } from '../hook/Usedarkmode';
 
 const Project = () => {
+
+    const navlinkstyle = ({ isActive }) => {
+
+        return{
+            fontWeight: isActive ? 'bold' : 'normal',
+            color: isActive ? 'red' : 'normal'
+        }
+        
+       }
+
+
+
     Usedarkmode()
     const [colortheme, setTheme] = Usedarkmode();
 
@@ -36,9 +48,9 @@ const Project = () => {
                         </div>
                         <ul className=' flex'>
                             <div className='hidden lg:flex py-6 gap-[53px] dark:text-[#FAF9F8]'>
-                                <li className='  text-lg text-[#B10808]'><Link to='/Navbar'>Home</Link></li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'><Link to='/About'>About</Link></li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Project</li>
+                                <li className='  text-lg '><NavLink to='/Navbar'>Home</NavLink></li>
+                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'><NavLink to='/About'>About</NavLink></li>
+                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'><NavLink style={navlinkstyle} to='/Project'>Project</NavLink></li>
                                 <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Resume</li>
                                 <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Contact</li>
                             </div>
@@ -60,8 +72,8 @@ const Project = () => {
                         </div>
                    </div>
                    <ul className={!nav ? 'hidden' :  ' border-t-2 absolute  right-4 top-20  pt-4 pl-5 bg-white h-[200px] w-40  gap-[53px] dark:bg-[#17234f] shadow-xl dark:text-[#FAF9F8] '}>
-                            <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><Link to='/Navbar'>Home</Link></li>
-                            <li  className='  flex gap-3 pt-2'><BsFillFileTextFill className=' mt-1' /><Link to='/About'>About</Link></li>
+                            <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><NavLink to='/Navbar'>Home</NavLink></li>
+                            <li  className='  flex gap-3 pt-2'><BsFillFileTextFill className=' mt-1' /><NavLink to='/About'>About</NavLink></li>
                             <li className=' flex gap-3 pt-2'><BsFillCheckSquareFill className=' mt-1' />Project</li>
                             <li className=' flex gap-3 pt-2'><BsFillBookmarksFill className=' mt-1' />Resume</li>
                             <li className=' flex gap-3 pt-2'><BsFillTelephoneForwardFill className=' mt-1' />Contact</li>
