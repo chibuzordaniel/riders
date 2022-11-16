@@ -11,18 +11,18 @@ import frame from '../assests/Group 29.png';
 import frame2 from '../assests/Group 33.png';
 import frame3 from  '../assests/Group 30.png'
 import {Link} from 'react-router-dom'
-
+import { Usedarkmode } from '../hook/Usedarkmode';
 
 const Project = () => {
+    Usedarkmode()
+    const [colortheme, setTheme] = Usedarkmode();
 
-    const [darkMode, setDarkMode] = useState(false)
-    const handlerClick = () => setDarkMode(!darkMode)
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav);
 
     return(
         
-        <div className={darkMode ? "dark " : ""}  >
+        <section >
           <div className=' '>
             <nav className=' bg-white h-20  w-screen z-10  top-0 fixed drop-shadow-lg dark:bg-[#151D3B]'>
                
@@ -43,11 +43,15 @@ const Project = () => {
                                 <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Contact</li>
                             </div>
 
-                            <div className='dark:text-[#FAF9F8] lg:py-7 lg:ml-16 sm:py-[29px] sm:ml-[140px] md:ml-[600px]  ' onClick={handlerClick}>
-                                { !darkMode ? <svg className=' lg:w-7 lg:h-6  sm:w-5 sm:h-6  ' width="" height="" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16.784 30.059C21.9609 30.059 26.6891 27.9499 29.8216 24.4938C30.285 23.9826 29.7797 23.2357 29.0635 23.3578C20.9205 24.7465 13.4425 19.1557 13.4425 11.7949C13.4425 7.55478 15.9773 3.65575 20.0969 1.55637C20.732 1.23277 20.5723 0.370629 19.8507 0.251274C18.8391 0.0842433 17.8126 0.000137164 16.784 0C7.51943 0 0 6.72282 0 15.0295C0 23.3256 7.50763 30.059 16.784 30.059Z" fill="black"/>
-                                </svg>: <FaSun className=" w-7 h-6" />}
-                            </div>
+                            <div className='dark:text-[#FAF9F8] flex lg:py-7 lg:ml-16 sm:py-[29px] sm:ml-[140px] md:ml-[600px]  ' onClick={() => setTheme(colortheme)}>
+                                { colortheme === 'dark' ? (
+                                    <svg className=' fill-black' width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.784 30.059C21.9609 30.059 26.6891 27.9499 29.8216 24.4938C30.285 23.9826 29.7797 23.2357 29.0635 23.3578C20.9205 24.7465 13.4425 19.1557 13.4425 11.7949C13.4425 7.55478 15.9773 3.65575 20.0969 1.55637C20.732 1.23277 20.5723 0.370629 19.8507 0.251274C18.8391 0.0842433 17.8126 0.000137164 16.784 0C7.51943 0 0 6.72282 0 15.0295C0 23.3256 7.50763 30.059 16.784 30.059Z" fill=""/>
+                                    </svg>
+                                ):(
+                                    <FaSun className=" w-7 h-6" />
+                                )}
+                             </div>
                             
                         </ul>
 
@@ -281,7 +285,7 @@ const Project = () => {
                    
                 </footer>
            </div>
-        </div>
+        </section>
     )
 }
 
