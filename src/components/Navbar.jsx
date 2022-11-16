@@ -46,7 +46,7 @@ const Navbar = () => {
                         </div>
                         <ul className=' flex '>
                             <div className='hidden lg:flex py-6 gap-[53px]  dark:text-[#FAF9F8]'>
-                                <li className='  text-lg '><NavLink style={navlinkstyle} to='/Navbar'>Home</NavLink></li>
+                                <li className='  text-lg cursor-pointer hover:text-[#B10808] '><NavLink style={navlinkstyle} to='/Navbar'>Home</NavLink></li>
                                 <li className=' text-lg cursor-pointer hover:text-[#B10808]'><NavLink  to='/About'>About</NavLink></li>
                                 <li className=' text-lg cursor-pointer hover:text-[#B10808]'><NavLink to='/Project'>Project</NavLink></li>
                                 <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Resume</li>
