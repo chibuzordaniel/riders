@@ -20,7 +20,7 @@ const About = () => {
             color: isActive ? 'red' : 'normal'
         }
         
-       }
+    }
 
     Usedarkmode()
     const [colortheme, setTheme] = Usedarkmode();
