@@ -61,8 +61,7 @@ const Navbar = () => {
                                     ):(
                                       <FaSun className=" w-7 h-6" />
                                     )}
-                          </div>
-                            
+                          </div> 
                         </ul>
 
                         <div  className=' lg:hidden sm:py-6 sm:mr-9  ' onClick={handleClick}>
