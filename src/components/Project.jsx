@@ -159,7 +159,7 @@ const Project = () => {
                     <div className=' lg:flex lg:gap-7 mt-12 pt-20 sm:block '>
 
                            <div className='  '>
-                                <img className=' lg:w-[780px]  lg:h-[800px]  lg:mx-0 sm:w-[310px] sm:mx-7 '  src={frame} alt="" srcset="" />
+                                <img className=' lg:w-[780px]  lg:h-[800px]  lg:mx-0 sm:h-[500px] sm:w-[310px] sm:mx-7 '  src={frame} alt="" srcset="" />
                             </div>
 
                            
@@ -209,7 +209,7 @@ const Project = () => {
                         </div>
 
                         <div className=' '>
-                            <img className='lg:w-[780px] sm:pt-10 lg:pt-0 lg:h-[800px] lg:mx-0 sm:w-[310px] mx-5 ' src={frame3} alt="" srcset="" />
+                            <img className='lg:w-[780px] sm:pt-10 lg:pt-0 lg:h-[800px]  sm:h-[500px] lg:mx-0 sm:w-[310px] mx-5 ' src={frame3} alt="" srcset="" />
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@ const Project = () => {
               <div className=' max-w-[1240px] mx-auto  '>
                 <div className=' lg:flex lg:gap-7 mt-40 sm:block'>
                         <div className='   '>
-                            <img className='lg:w-[780px]  lg:h-[800px] lg:mx-0 sm:w-[310px] mx-7 ' src={frame2} alt="" srcset="" />
+                            <img className='lg:w-[780px]  lg:h-[800px] lg:mx-0 sm:h-[500px] sm:w-[310px] mx-7 ' src={frame2} alt="" srcset="" />
                         </div>
 
                         <div className=' '>
@@ -257,7 +257,7 @@ const Project = () => {
                         </div>
 
                         <div className=' '>
-                            <img className='lg:w-[600px] lg:h-[800px]  lg:mx-0 sm:w-[310px] mx-6 lg:pt-0 sm:pt-10 ' src={frame4} alt="" srcset="" />
+                            <img className='lg:w-[600px] lg:h-[800px]  lg:mx-0 sm:h-[500px] sm:w-[310px] mx-6 lg:pt-0 sm:pt-10 ' src={frame4} alt="" srcset="" />
                         </div>
                     </div>
                 </div>
@@ -266,7 +266,7 @@ const Project = () => {
                 <div className=' max-w-[1240px] mx-auto  '>
                 <div className=' lg:flex lg:gap-7 mt-40 sm:block'>
                         <div className='   '>
-                            <img className='lg:w-[600px]  lg:h-[800px] lg:mx-0 sm:w-[310px] mx-6 ' src={frame5} alt="" srcset="" />
+                            <img className='lg:w-[600px]  lg:h-[800px] lg:mx-0 sm:h-[500px] sm:w-[310px] mx-6 ' src={frame5} alt="" srcset="" />
                         </div>
 
                         <div className=' '>
@@ -306,7 +306,7 @@ const Project = () => {
                         </div>
 
                         <div className=' '>
-                            <img className='lg:w-[600px] lg:h-[800px]  lg:mx-0 sm:w-[310px] mx-6 lg:pt-0 sm:pt-10 ' src={frame6} alt="" srcset="" />
+                            <img className='lg:w-[600px] lg:h-[800px]  lg:mx-0 sm:w-[310px] sm:h-[500px] mx-6 lg:pt-0 sm:pt-10 ' src={frame6} alt="" srcset="" />
                         </div>
                     </div>
                 </div>
