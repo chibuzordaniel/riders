@@ -7,13 +7,13 @@ function App() {
  
   return (
    <>
-     <Routes>
-       <Route path='' element={<Navbar/>}/>
-       <Route path='/Navbar' element={<Navbar/>}/>
-       <Route path='/About' element={<About/>}/>
-       <Route path='/Project' element={<Project/>}/>
-    </Routes>
-       
+     {/* <Routes> */}
+       {/* <Route path='' element={<Navbar/>}/> */}
+       {/* <Route path='/Navbar' element={<Navbar/>}/> */}
+       {/* <Route path='/About' element={<About/>}/> */}
+       {/* <Route path='/Project' element={<Project/>}/> */}
+    {/* </Routes> */}
+    <Project/>
    </>
    
      

@@ -10,6 +10,9 @@ import {useState} from 'react';
 import frame from '../assests/Group 29.png';
 import frame2 from '../assests/Group 33.png';
 import frame3 from  '../assests/Group 30.png'
+import frame4  from  '../assests/Screenshot 2023-04-09 014729 (2).png'
+import frame5  from  '../assests/Screenshot 2023-04-09 022027 (2).png'
+import frame6  from  '../assests/Screenshot 2023-04-09 022129 (2).png'
 import {NavLink} from 'react-router-dom'
 import { Usedarkmode } from '../hook/Usedarkmode';
 
@@ -50,14 +53,14 @@ const Project = () => {
                         </div>
                         <ul className=' flex'>
                             <div className='hidden lg:flex py-6 gap-[53px] dark:text-[#FAF9F8]'>
-                                <li className='  text-lg cursor-pointer hover:text-[#B10808]  '><NavLink to='/Navbar'>Home</NavLink></li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'><NavLink to='/About'>About</NavLink></li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'><NavLink style={navlinkstyle} to='/Project'>Project</NavLink></li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Resume</li>
-                                <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Contact</li>
+                                {/* <li className='  text-lg cursor-pointer hover:text-[#B10808]  '><NavLink to='/Navbar'>Home</NavLink></li> */}
+                                {/* <li className=' text-lg cursor-pointer hover:text-[#B10808]'><NavLink to='/About'>About</NavLink></li> */}
+                                {/* <li className=' text-lg cursor-pointer hover:text-[#B10808]'><NavLink style={navlinkstyle} to='/Project'>Project</NavLink></li> */}
+                                {/* <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Resume</li> */}
+                                {/* <li className=' text-lg cursor-pointer hover:text-[#B10808]'>Contact</li> */}
                             </div>
 
-                            <div className='dark:text-[#FAF9F8] flex lg:py-7 lg:ml-16 sm:py-[29px] sm:ml-[140px] md:ml-[600px]  ' onClick={() => setTheme(colortheme)}>
+                            <div className='dark:text-[#FAF9F8] flex lg:py-7 lg:ml-16 sm:py-[27px] sm:mr-5 md:ml-[600px]  ' onClick={() => setTheme(colortheme)}>
                                 { colortheme === 'dark' ? (
                                     <svg className=' fill-black w-7 h-6' width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16.784 30.059C21.9609 30.059 26.6891 27.9499 29.8216 24.4938C30.285 23.9826 29.7797 23.2357 29.0635 23.3578C20.9205 24.7465 13.4425 19.1557 13.4425 11.7949C13.4425 7.55478 15.9773 3.65575 20.0969 1.55637C20.732 1.23277 20.5723 0.370629 19.8507 0.251274C18.8391 0.0842433 17.8126 0.000137164 16.784 0C7.51943 0 0 6.72282 0 15.0295C0 23.3256 7.50763 30.059 16.784 30.059Z" fill=""/>
@@ -65,21 +68,21 @@ const Project = () => {
                                 ):(
                                     <FaSun className=" w-7 h-6" />
                                 )}
-                             </div>
+                            </div>
                             
                         </ul>
 
-                        <div  className=' lg:hidden sm:py-6 sm:mr-9  ' onClick={handleClick}>
+                        {/* <div  className=' lg:hidden sm:py-6 sm:mr-9  ' onClick={handleClick}>
                               { !nav ? <IoAppsSharp className=' lg:w-7 lg:h-6  sm:w-5 sm:h-6 mt-1 dark:text-[#FAF9F8]'/> : <HiXMark className=' w-7 h-6 mt-1 dark:text-[#FAF9F8]'/>  }
-                        </div>
+                        </div> */}
                    </div>
-                   <ul className={!nav ? 'hidden' :  ' border-t-2 absolute  right-4 top-20  pt-4 pl-5 bg-white h-[200px] w-40  gap-[53px] dark:bg-[#17234f] shadow-xl dark:text-[#FAF9F8] '}>
+                   {/* <ul className={!nav ? 'hidden' :  ' border-t-2 absolute  right-4 top-20  pt-4 pl-5 bg-white h-[200px] w-40  gap-[53px] dark:bg-[#17234f] shadow-xl dark:text-[#FAF9F8] '}>
                             <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><NavLink to='/Navbar'>Home</NavLink></li>
                             <li  className='  flex gap-3 pt-2'><BsFillFileTextFill className=' mt-1' /><NavLink to='/About'>About</NavLink></li>
                             <li className=' flex gap-3 pt-2'><BsFillCheckSquareFill className=' mt-1' />Project</li>
                             <li className=' flex gap-3 pt-2'><BsFillBookmarksFill className=' mt-1' />Resume</li>
                             <li className=' flex gap-3 pt-2'><BsFillTelephoneForwardFill className=' mt-1' />Contact</li>
-                  </ul>
+                  </ul> */}
                 </div>
             </nav>
             <main className=" dark:bg-[#151D3B] ">
@@ -156,12 +159,12 @@ const Project = () => {
                     <div className=' lg:flex lg:gap-7 mt-12 pt-20 sm:block '>
 
                            <div className='  '>
-                                <img className=' lg:w-[780px]  lg:mx-0 sm:w-[280px] sm:mx-7  '  src={frame} alt="" srcset="" />
+                                <img className=' lg:w-[780px]  lg:h-[800px]  lg:mx-0 sm:w-[310px] sm:mx-7 '  src={frame} alt="" srcset="" />
                             </div>
 
                            
                             <div className='  '>
-                                <h2 className=' lg:text-4xl lg:pt-40 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Cov19Strain Application</h2>
+                                <h2 className=' lg:text-4xl lg:pt-40 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:pt-10 sm:leading-8 sm:text-2xl '>Cov19Strain Application</h2>
                                 <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application  that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
 
                                 <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
@@ -173,9 +176,7 @@ const Project = () => {
                                 <div className=' pt-[54px]'>
                                     <button className='bg-[#FF6B6B] lg:w-[100px] lg:h-[100px] lg:ml-0 rounded-full text-white  sm:w-[70px]  sm:h-[70px] sm:ml-7'><a href="https://covid-19strain.netlify.app">View</a></button>
                                 </div>
-                            </div>
-
-                            
+                            </div>                            
                     </div>
                 </div>
 
@@ -192,7 +193,9 @@ const Project = () => {
                     <div className=' lg:flex lg:gap-7 mt-12 sm:block'>
                         <div className=' '>
                            <h2 className=' lg:mt-48 lg:text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>DogHub Application</h2>
-                           <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
+                           <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>The Dogs API was made by dog.ceo, you could <br /> 
+                            buy the author a dog treat via this link <br /> https://www.paypal.com/paypalme/dogapi, you could also view  <br /> the project on Github via this link <br /> https://github.com/ElliottLandsborough/dog-ceo-api
+                            </p>
 
                            <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
                                 <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
@@ -206,21 +209,21 @@ const Project = () => {
                         </div>
 
                         <div className=' '>
-                            <img className='lg:w-[780px]  lg:mx-0 sm:w-[280px] mx-7 ' src={frame3} alt="" srcset="" />
+                            <img className='lg:w-[780px] sm:pt-10 lg:pt-0 lg:h-[800px] lg:mx-0 sm:w-[310px] mx-5 ' src={frame3} alt="" srcset="" />
                         </div>
                     </div>
                 </div>
 
-              {/* section DogHub Application */}
+              {/*Wordlen Application */}
               <div className=' max-w-[1240px] mx-auto  '>
                 <div className=' lg:flex lg:gap-7 mt-40 sm:block'>
                         <div className='   '>
-                            <img className='lg:w-[780px]  lg:mx-0 sm:w-[280px] mx-7 ' src={frame2} alt="" srcset="" />
+                            <img className='lg:w-[780px]  lg:h-[800px] lg:mx-0 sm:w-[310px] mx-7 ' src={frame2} alt="" srcset="" />
                         </div>
 
                         <div className=' '>
-                           <h2 className=' lg:text-4xl lg:pt-44 lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Wordlen Application</h2>
-                           <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Covid-19 tracker is an application that help you keep tracks of covid-19 situation <br />  locality and even beyond your locality. This application will teach/guide you to prevent yourself from been infected.</p>
+                           <h2 className=' lg:text-4xl lg:pt-44 lg:pl-0  dark:text-white font-Poppins sm:pl-7 sm:pt-10 sm:leading-8 sm:text-2xl '>Wordlen Application</h2>
+                           <p className=' lg:text-[14px] lg:pl-0  dark:text-white pt-7 font-Poppins sm:px-7   sm:text-[12px] '>Wordlen application  search for any word</p>
 
                             <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
                                 <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
@@ -234,6 +237,80 @@ const Project = () => {
                         </div>
                 </div>
                 </div>
+
+                {/* laptop application */}
+                <div className=' max-w-[1240px] mx-auto'>
+                    <div className=' lg:flex  lg:justify-between lg:mt-40 sm:mt-14  sm:block'>
+                        <div className=' '>
+                           <h2 className=' lg:mt-48 lg:text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Laptop Application</h2>
+                           <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Laptop  application that help you get any type of  Laptop</p>
+
+                           <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
+                                <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
+                                <button className=' bg-[#151D3B] lg:w-[119px] lg:h-[59px] lg:ml-0 text-white dark:bg-[#B10808] sm:ml-2 sm:w-[22%] sm:h-8'><a href="https://www.w3schools.com/css/css_intro.asp"> CSS</a></button>
+                                <button className=' bg-[#FF6B6B] lg:w-[119px] lg:ml-0  lg:h-[59px] text-white sm:ml-2 sm:w-[22%] sm:h-8'><a href="https://app.netlify.com/teams/chrisonwueyip/overview">Netlify</a></button>
+                                <button className=' bg-[#EFA434]  lg:w-[119px]  lg:h-[59px] text-white lg:ml-0 sm:w-[22%] sm:h-8  sm:ml-2'><a href="https://github.com/chibuzordaniel">Github</a></button>
+                          </div>
+                          <div className=' pt-[64px]  '>
+                             <button className='bg-[#FF6B6B] lg:w-[100px] lg:h-[100px] lg:ml-0 rounded-full text-white  sm:w-[70px]  sm:h-[70px] sm:ml-7'><a href="https://frontendchallengeapp.netlify.app/">View</a> </button>
+                          </div>
+                        </div>
+
+                        <div className=' '>
+                            <img className='lg:w-[600px] lg:h-[800px]  lg:mx-0 sm:w-[310px] mx-6 lg:pt-0 sm:pt-10 ' src={frame4} alt="" srcset="" />
+                        </div>
+                    </div>
+                </div>
+                {/* Petly Application */}
+
+                <div className=' max-w-[1240px] mx-auto  '>
+                <div className=' lg:flex lg:gap-7 mt-40 sm:block'>
+                        <div className='   '>
+                            <img className='lg:w-[600px]  lg:h-[800px] lg:mx-0 sm:w-[310px] mx-6 ' src={frame5} alt="" srcset="" />
+                        </div>
+
+                        <div className=' '>
+                           <h2 className=' lg:text-4xl lg:pt-44 lg:pl-0  dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:pt-10 sm:text-2xl '>Petly Application</h2>
+                           <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '> Petly application where you can buy any type of dog</p>
+
+                            <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
+                                <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
+                                <button className=' bg-[#151D3B] lg:w-[119px] lg:h-[59px] lg:ml-0 text-white dark:bg-[#B10808] sm:ml-2 sm:w-[22%] sm:h-8'><a href="https://www.w3schools.com/css/css_intro.asp"> CSS</a></button>
+                                <button className=' bg-[#FF6B6B] lg:w-[119px] lg:ml-0  lg:h-[59px] text-white sm:ml-2 sm:w-[22%] sm:h-8'><a href="https://app.netlify.com/teams/chrisonwueyip/overview">Netlify</a></button>
+                                <button className=' bg-[#EFA434]  lg:w-[119px]  lg:h-[59px] text-white lg:ml-0 sm:w-[22%] sm:h-8  sm:ml-2'><a href="https://github.com/chibuzordaniel">Github</a></button>
+                           </div>
+                           <div className=' pt-[54px]'>
+                             <button className='bg-[#FF6B6B] lg:w-[100px] lg:h-[100px] lg:ml-0 rounded-full text-white  sm:w-[70px]  sm:h-[70px] sm:ml-7'> <a href="https://petlyapp.netlify.app/">View</a> </button>
+                           </div>
+                        </div>
+                </div>
+                </div>
+
+                {/* Aristo Application*/}
+
+                <div className=' max-w-[1240px] mx-auto'>
+                    <div className=' lg:flex  lg:justify-between mt-40 sm:block'>
+                        <div className=' '>
+                           <h2 className=' lg:mt-48 lg:text-4xl lg:pl-0 dark:text-white font-Poppins sm:pl-7 sm:leading-8 sm:text-2xl '>Aristo Application</h2>
+                           <p className=' lg:text-[14px] lg:pl-0 dark:text-white pt-7 font-Poppins sm:px-7  sm:text-[12px] '>Browse a curated selection of art around the world, <br /> including museum exhibitions, gallery openings, <br /> upcoming and many more</p>
+
+                           <div className=' pt-8 lg:mx-0  flex lg:gap-5 sm:mx-7   '>
+                                <button className=' bg-[#2B33E39E] lg:w-[119px] lg:h-[59px] text-white  sm:w-[22%] sm:h-8 '><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></button>
+                                <button className=' bg-[#151D3B] lg:w-[119px] lg:h-[59px] lg:ml-0 text-white dark:bg-[#B10808] sm:ml-2 sm:w-[22%] sm:h-8'><a href="https://www.w3schools.com/css/css_intro.asp"> CSS</a></button>
+                                <button className=' bg-[#FF6B6B] lg:w-[119px] lg:ml-0  lg:h-[59px] text-white sm:ml-2 sm:w-[22%] sm:h-8'><a href="https://app.netlify.com/teams/chrisonwueyip/overview">Netlify</a></button>
+                                <button className=' bg-[#EFA434]  lg:w-[119px]  lg:h-[59px] text-white lg:ml-0 sm:w-[22%] sm:h-8  sm:ml-2'><a href="https://github.com/chibuzordaniel">Github</a></button>
+                          </div>
+                          <div className=' pt-[64px]  '>
+                             <button className='bg-[#FF6B6B] lg:w-[100px] lg:h-[100px] lg:ml-0 rounded-full text-white  sm:w-[70px]  sm:h-[70px] sm:ml-7'><a href="https://aristoapp.netlify.app/">View</a> </button>
+                          </div>
+                        </div>
+
+                        <div className=' '>
+                            <img className='lg:w-[600px] lg:h-[800px]  lg:mx-0 sm:w-[310px] mx-6 lg:pt-0 sm:pt-10 ' src={frame6} alt="" srcset="" />
+                        </div>
+                    </div>
+                </div>
+
                 <footer className=' bg-white mt-20  dark:bg-[#151D3B]'>
                     <div className=' max-w-[1240px] mx-auto'>
                         <div className=' flex lg:ml-0  sm:ml-7  '>

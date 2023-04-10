@@ -70,11 +70,11 @@ const About = () => {
                         </div>
                    </div>
                    <ul className={!nav ? 'hidden' :  ' border-t-2 absolute  right-4 top-20  pt-4 pl-5 bg-white h-[200px] w-40  gap-[53px] dark:bg-[#17234f] shadow-xl dark:text-[#FAF9F8] '}>
-                            <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><NavLink to='/Navbar'>Home</NavLink></li>
-                            <li className=' flex gap-3 pt-2'><BsFillFileTextFill className=' mt-1' />About</li>
-                            <li className=' flex gap-3 pt-2'><BsFillCheckSquareFill className=' mt-1' /><NavLink to='/Project'>Project</NavLink></li>
-                            <li className=' flex gap-3 pt-2'><BsFillBookmarksFill className=' mt-1' />Resume</li>
-                            <li className=' flex gap-3 pt-2'><BsFillTelephoneForwardFill className=' mt-1' />Contact</li>
+                        <li className=' flex gap-3'><IoAppsSharp className=' mt-1 ' /><NavLink to='/Navbar'>Home</NavLink></li>
+                        <li className=' flex gap-3 pt-2'><BsFillFileTextFill className=' mt-1' />About</li>
+                        <li className=' flex gap-3 pt-2'><BsFillCheckSquareFill className=' mt-1' /><NavLink to='/Project'>Project</NavLink></li>
+                        <li className=' flex gap-3 pt-2'><BsFillBookmarksFill className=' mt-1' />Resume</li>
+                        <li className=' flex gap-3 pt-2'><BsFillTelephoneForwardFill className=' mt-1' />Contact</li>
                   </ul>
                 </div>
             </nav>
