@@ -1,11 +1,11 @@
 
-import {IoAppsSharp}  from 'react-icons/io5';
+// import {IoAppsSharp}  from 'react-icons/io5';
 import {FaFacebookF}  from 'react-icons/fa';
 import {AiOutlineTwitter} from 'react-icons/ai';
-import {BsFillBookmarksFill, BsFillCheckSquareFill, BsFillFileTextFill, BsFillTelephoneForwardFill} from 'react-icons/bs'
+// import {BsFillBookmarksFill, BsFillCheckSquareFill, BsFillFileTextFill, BsFillTelephoneForwardFill} from 'react-icons/bs'
 import  {FaLinkedinIn, FaSun}  from  'react-icons/fa';
 import  {IoLogoOctocat} from  'react-icons/io';
-import  {HiXMark} from  'react-icons/hi2';
+// import  {HiXMark} from  'react-icons/hi2';
 import {useState} from 'react';
 import frame from '../assests/Group 29.png';
 import frame2 from '../assests/Group 33.png';
@@ -18,22 +18,22 @@ import { Usedarkmode } from '../hook/Usedarkmode';
 
 const Project = () => {
 
-    const navlinkstyle = ({ isActive }) => {
+    // const navlinkstyle = ({ isActive }) => {
 
-        return{
-            fontWeight: isActive ? 'bold' : 'normal',
-            color: isActive ? 'red' : 'normal'
-        }
+    //     return{
+    //         fontWeight: isActive ? 'bold' : 'normal',
+    //         color: isActive ? 'red' : 'normal'
+    //     }
         
-       }
+    //    }
 
 
 
     Usedarkmode()
     const [colortheme, setTheme] = Usedarkmode();
 
-    const [nav, setNav] = useState(false)
-    const handleClick = () => setNav(!nav);
+    // const [nav, setNav] = useState(false)
+    // const handleClick = () => setNav(!nav);
 
     return(
         
