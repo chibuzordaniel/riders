@@ -1,7 +1,7 @@
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
 import Project from './components/Project';
-import {Route, Routes} from 'react-router-dom'
-import About from './components/About';
+// import {Route, Routes} from 'react-router-dom'
+// import About from './components/About';
 
 function App() {
  
